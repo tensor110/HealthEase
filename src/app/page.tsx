@@ -6,6 +6,7 @@ import Detail from '../components/details'
 import Meet from '../components/meet'
 import Department from '../components/department'
 import Customer from '../components/customers'
+import Team from '../components/team'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Meet />
       <Department />
       <Customer />
+      <Team />
     </main>
   );
 }

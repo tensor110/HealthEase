@@ -26,7 +26,7 @@ export default function customers() {
     },
   ];
   return (
-    <div className="mt-[25vh] p-[10vw] h-[85vh]">
+    <div className="my-[25vh] p-[10vw] h-[110vh]">
       <div>
         <span className="text-[#ff685b] font-bold text-base">Reviews</span>
         <div className="text-[#28a4a4] font-bold text-5xl tracking-wider">
