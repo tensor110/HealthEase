@@ -34,7 +34,7 @@ export default function department() {
     },
   ];
   return (
-    <div className="bg-[#28a4a4] w-full h-[200vh] mt-[15%] px-[10%] pt-[10%]">
+    <div className="bg-[#28a4a4] w-full h-[195vh] mt-[15%] px-[10%] pt-[10%]">
       <span className="text-white font-medium text-base">Practice Advice</span>
       <div className="text-white text-4xl font-bold mt-5 mb-5">
         Our Department
@@ -95,8 +95,8 @@ export default function department() {
                   src="/image.jpg"
                   width="3"
                 />
-                <span className="text-[#c2c2c2] font-bold text-lg">
-                  {item.sales} Sales
+                <span className="text-[#c2c2c2] font-bold text-base">
+                    {item.sales} Sales
                 </span>
               </div>
               <div className="my-3">

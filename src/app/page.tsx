@@ -5,6 +5,8 @@ import Card1 from '../components/firstcard'
 import Detail from '../components/details'
 import Meet from '../components/meet'
 import Department from '../components/department'
+import Customer from '../components/customers'
+
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <Detail/>
       <Meet />
       <Department />
+      <Customer />
     </main>
   );
 }
