@@ -6,6 +6,7 @@ export default function department() {
   const departmentItems = [
     {
       feature: "Painless Procedures",
+      star: '4.9',
       title: "Quick Examination",
       text: "Text For the mentioned service write here the content you want here to present.....",
       src: "../../public/image.jpg",
@@ -15,6 +16,7 @@ export default function department() {
     },
     {
       feature: "Cancer Care",
+      star: '4.9',
       title: "Online Appointment",
       text: "Text For the mentioned service write here the content you want here to present.....",
       sales: "15",
@@ -23,6 +25,7 @@ export default function department() {
     },
     {
       feature: "Best Dental Surgeons",
+      star: '4.9',
       title: "Emergency Case",
       text: "Text For the mentioned service write here the content you want here to present.....",
       sales: "15",
@@ -44,7 +47,7 @@ export default function department() {
         {departmentItems.map((item, index) => (
           <div
             key={index}
-            className="bg-white w-[25vw] h-[120vh] flex flex-col"
+            className="bg-white w-[25vw] h-[110vh] flex flex-col"
           >
             <div>
               <Image
@@ -54,23 +57,36 @@ export default function department() {
                 src="/image.jpg"
                 width="350"
               />
-              {/* <div className="absolute z-20 p-[1%]"> */}
-                <span className="absolute z-20 bg-[#ff685b] text-white px-2 py-1 rounded">
+              <div className="absolute z-20 p-[1%]">
+                <div className="absolute z-20 bg-[#ff685b] text-white px-2 py-1 rounded">
                   Sale
-                </span>
-                <div className="absolute z-20 flex justify-between w-[10vw] items-end">
-                    <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">1</div>
-                    <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">2</div>
-                    <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">3</div>
-                {/* </div> */}
+                </div>
+                <div className="absolute z-20 flex justify-between w-[10vw] mt-[38vh] ml-[7vw]">
+                  <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                    1
+                  </div>
+                  <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                    2
+                  </div>
+                  <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">
+                    3
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="pl-5 flex flex-col pt-8 mt-[50vh]">
-              <span className="text-[#ff685b] font-medium text-base">
-                {item.feature}
+            <div className="pl-5 flex flex-col pt-8 mt-[50vh] pr-5">
+              <div className="flex justify-between">
+                <span className="text-[#ff685b] font-medium text-base mb-2">
+                  {item.feature}
+                </span>
+                <span className="bg-black text-white px-4 py-1 rounded-2xl">{item.star}</span>
+              </div>
+              <span className="text-black font-bold text-lg mb-2">
+                {item.title}
               </span>
-              <span className="text-black font-bold text-lg">{item.title}</span>
-              <p className="text-black font-light text-base">{item.text}</p>
+              <p className="text-black font-light text-base w-4/5 mb-1">
+                {item.text}
+              </p>
               <div>
                 <Image
                   alt="1"
@@ -83,15 +99,15 @@ export default function department() {
                   {item.sales} Sales
                 </span>
               </div>
-              <div>
-                <span className="text-[#bdbdbd] font-bold text-lg">
-                  ₹{item.original_price}
+              <div className="my-3">
+                <span className="text-[#bdbdbd] font-bold text-lg mr-3">
+                  ₹ {item.original_price}
                 </span>
                 <span className="text-[#28a4a4] font-bold text-lg">
-                  ₹{item.discounted_price}
+                  ₹ {item.discounted_price}
                 </span>
               </div>
-              <button className="border-2 border-[#ff685b] rounded-full px-5 py-3 w-[50%]">
+              <button className="border-[1px] border-[#ff685b] text-[#ff685b] font-bold rounded-full px-5 py-3 my-2 w-[50%]">
                 Learn More {">"}
               </button>
             </div>

@@ -19,6 +19,7 @@ export default function firstcard() {
     <div className="flex justify-between mt-[10%]  px-[10%]">
       {cardContent.map((item, index) => (
         <div key={index} className="bg-white w-[31%] gap-10 p-12 shadow-md">
+            <div className="mb-10">LOGO</div>
           <span className="font-bold text-lg mb-240">{item.heading}</span>
           <svg width="100" height="20" xmlns="http://www.w3.org/2000/svg" className="mt-8">
             <line
@@ -27,20 +28,12 @@ export default function firstcard() {
               x2="50"
               y2="0"
               stroke="#fb5d3a"
-              stroke-width="5"
+              strokeWidth="5"
             />
           </svg>
           <p className="text-[#7c7c7c] font-light">{item.text}</p>
         </div>
       ))}
-      {/* <div>
-        <span>Test NearBy</span>
-        <p>Text For the mentioned servicewrite here the content you want....</p>
-      </div>
-      <div>
-        <span>Order Medicine via Doctor's Prescription</span>
-        <p>Text For the mentioned service write here the content you want here to present........</p>
-      </div> */}
     </div>
   );
 }

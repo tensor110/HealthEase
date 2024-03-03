@@ -10,7 +10,7 @@ export default function meet() {
               x2="100"
               y2="0"
               stroke="#fb5d3a"
-              stroke-width="10"
+              strokeWidth="10"
             />
           </svg>
       <div className='text-4xl font-bold tracking-wide mb-[3%]'>Meet Our Experts</div>

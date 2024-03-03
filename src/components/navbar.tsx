@@ -25,8 +25,8 @@ const Navbar: React.FC = () => {
             <a href={item.url} key={index}>{item.text}</a>
           ))}
         </div>
-        <div className="flex w-1/6 justify-between align-middle font-bold">
-                <a href="" className="text-[#fb5d3a] pt-2">About Us</a>
+        <div className="flex w-[20%] justify-between align-middle font-bold">
+                <a href="" className="text-[#fb5d3a] pt-2 pr-10">About Us</a>
                 <button className="bg-[#fb5d3a] px-7 py-2 text-white rounded">Login</button>
         </div>
 

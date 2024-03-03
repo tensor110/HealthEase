@@ -8,7 +8,7 @@ export default function customers() {
         <span>Reviews</span>
         <div>Happy Customers</div>
         <p>
-          goi the mentioned service 'Alite contert you want here to present.
+          goi the mentioned service Alite contert you want here to present.
           Vaid is tastest growing website tor medical uses.
         </p>
       </div>
