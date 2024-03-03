@@ -34,7 +34,7 @@ export default function team() {
           present. Vaid is the fastest growing website for medical uses.
         </p>
       </div>
-      <div className="flex justify-between mt-[20vh]">
+      <div className="flex justify-between mt-[15vh]">
         {teamItems.map((item, index) => (
           <div key ={index} className="bg-white text-black w-[23%] h-[78vh] rounded-3xl">
             <Image

@@ -7,7 +7,8 @@ import Meet from '../components/meet'
 import Department from '../components/department'
 import Customer from '../components/customers'
 import Team from '../components/team'
-
+import Contact from '../components/contact'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
       <Department />
       <Customer />
       <Team />
+      <Contact />
+      <Footer />
     </main>
   );
 }
