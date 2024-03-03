@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function home() {
   return (
-    <div className='flex flex-col mt-[10%] w-1/2'>
+    <div className='flex flex-col mt-[10%] mx-[10%] w-1/2'>
       <div className='text-[#ff685b] my-[7%] font-medium'>Join Us</div>
       <div>
         <span className='text-7xl font-bold'>A Great Place to Receive Care</span>

@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
 //   };
   return (
     <>
-      <div className="flex justify-between items-center align-middle text-black w-full h-14">
+      <div className="flex justify-between items-center align-middle text-black w-full h-14 px-[10%]">
         <div className="w-1/5 text-2xl font-bold">Va<span className="text-[#115faa]">id</span></div>
         <div className="hidden lg:flex justify-between w-2/6 text-[#737373] font-semibold">
           {navItems.map((item, index)=>(

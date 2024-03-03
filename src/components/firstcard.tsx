@@ -16,7 +16,7 @@ export default function firstcard() {
     },
   ];
   return (
-    <div className="flex justify-between mt-[10%]">
+    <div className="flex justify-between mt-[10%]  px-[10%]">
       {cardContent.map((item, index) => (
         <div key={index} className="bg-white w-[31%] gap-10 p-12 shadow-md">
           <span className="font-bold text-lg mb-240">{item.heading}</span>
