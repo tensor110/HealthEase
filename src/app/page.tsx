@@ -1,27 +1,19 @@
 import Image from "next/image";
 import Navbar from '../components/navbar'
-import Homme from '../components/home'
-import Card1 from '../components/firstcard'
-import Detail from '../components/details'
-import Meet from '../components/meet'
-import Department from '../components/department'
-import Customer from '../components/customers'
-import Team from '../components/team'
-import Contact from '../components/contact'
+import Homme from '../deliveryComponents/home'
+import Companies from '../deliveryComponents/companies'
+import VideoPart from '../deliveryComponents/videoPart'
 import Footer from '../components/footer'
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#fafafa]">
+    <main>
       <Navbar/>
       <Homme/>
-      <Card1 />
-      <Detail/>
-      <Meet />
-      <Department />
-      <Customer />
-      <Team />
-      <Contact />
+      <div className="h-[15vh]"></div>
+      <Companies />
+      <VideoPart />
       <Footer />
     </main>
   );

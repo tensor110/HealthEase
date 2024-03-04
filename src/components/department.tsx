@@ -47,12 +47,12 @@ export default function department() {
         {departmentItems.map((item, index) => (
           <div
             key={index}
-            className="bg-white w-[25vw] h-[110vh] flex flex-col"
+            className="bg-white w-[25vw] h-[110vh] flex rounded-lg flex-col"
           >
             <div>
               <Image
                 alt="1"
-                className="aspect-square absolute w-[25vw] h-[50vh] z-10"
+                className="aspect-square rounded-t-lg absolute w-[25vw] h-[50vh] z-10"
                 height="100"
                 src="/image.jpg"
                 width="350"
