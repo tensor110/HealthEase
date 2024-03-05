@@ -8,10 +8,13 @@ import Service from '../../components/deliverycomponent/service'
 import Order from '../../components/deliverycomponent/order'
 import Stats from '../../components/deliverycomponent/stats'
 import Says from '../../components/deliverycomponent/says'
+import Question from '../../components/deliverycomponent/questions'
+import Contact from '../../components/deliverycomponent/contact'
+import Footer from "../../components/homecomponents/footer"
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col bg-[#fafafa]">
       <Navbar/>
       <Homme />
       <Company/>
@@ -21,6 +24,9 @@ export default function Home() {
       <Order/>
       <Stats/>
       <Says/>
+      <Question/>
+      <Contact/>
+      <Footer />
     </main>
   );
 }
