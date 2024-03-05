@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Navbar from '../components/navbar'
+import Navbar from '../components/homecomponents/navbar'
 import Homme from '../deliveryComponents/home'
 import Companies from '../deliveryComponents/companies'
 import VideoPart from '../deliveryComponents/videoPart'
-import Footer from '../components/footer'
+import Footer from '../components/homecomponents/footer'
 
 
 export default function Home() {

@@ -2,12 +2,12 @@ import React from "react";
 
 export default function company() {
   return (
-    <div className="bg-[#28a4a4] text-white flex items-center align-middle w-full h-[50vh] pt-[18vh] mt-24">
-      <div className="w-1/3 p-6">
-        <span className="text-5xl font-bold my-4">
+    <div className="bg-[#28a4a4] text-white flex items-center align-middle w-full h-[60vh]">
+      <div className="w-[50%] px-14">
+        <span className="text-6xl font-bold">
           Trusted By Top Companies
         </span>
-        <p className="text-sm font-extralight">
+        <p className="text-base font-medium tracking-wide pt-3">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
           aliquid inventore ex voluptatum sed!
         </p>
