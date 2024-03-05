@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Navbar from '../../components/homecomponents/navbar'
-import Homme from '../../components/deliverycomponent/home'
-import Company from '../../components/deliverycomponent/company'
-import Courier from '../../components/deliverycomponent/courier'
-import Choose from '../../components/deliverycomponent/choose'
-import Service from '../../components/deliverycomponent/service'
-import Order from '../../components/deliverycomponent/order'
-import Stats from '../../components/deliverycomponent/stats'
-import Says from '../../components/deliverycomponent/says'
-import Question from '../../components/deliverycomponent/questions'
-import Contact from '../../components/deliverycomponent/contact'
+import Homme from '../../components/deliverycomponents/home'
+import Company from '../../components/deliverycomponents/company'
+import Courier from '../../components/deliverycomponents/courier'
+import Choose from '../../components/deliverycomponents/choose'
+import Service from '../../components/deliverycomponents/service'
+import Order from '../../components/deliverycomponents/order'
+import Stats from '../../components/deliverycomponents/stats'
+import Says from '../../components/deliverycomponents/says'
+import Question from '../../components/deliverycomponents/questions'
+import Contact from '../../components/deliverycomponents/contact'
 import Footer from "../../components/homecomponents/footer"
 
 export default function Home() {
