@@ -1,9 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
 export default function find() {
   return (
-    <div>
-      <div className="w-1/2 flex flex-col gap-[4vh] ml-[8vw] mb-[15vh]">
+    <div className="flex justify-between mx-[8vw]">
+      <div className="w-3/5 flex flex-col gap-[4vh] my-[10vh]">
         <div className="text-7xl font-base">
           Find the Best Doctors for Your Health Concerns
         </div>
@@ -14,7 +15,15 @@ export default function find() {
         </p>
         <button className="bg-[#fb5d3a] text-white font-bold text-2xl w-3/5 px-[2vw] py-[3vh] rounded-3xl">Book an apponitment</button>
       </div>
-      <div></div>
+      <div>
+      <Image
+            alt="1"
+            className="aspect-auto"
+            height="100"
+            src="/assets/vaid-page-3/PngItem_1939059 3.png"
+            width="400"
+          />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function company() {
   return (
@@ -16,7 +17,13 @@ export default function company() {
         <div className="flex flex-col gap-10">
           <div className="flex justify-center items-center">
             <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="bg-white text-black rounded-full">Logo</span>
+              <span className="rounded-full"><Image
+              alt="1"
+              className="rounded-full aspect-square"
+              height="200"
+              src="/assets/vaid-page-2/p2-trusted-by-top-companies/labadiellc.svg"
+              width="50"
+            /></span>
               <div className="flex flex-col">
                 <span className="text-lg font-semibold">LABADIE LLC</span>
                 <span className="text-sm font-extralight">Time is Golden</span>

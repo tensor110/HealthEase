@@ -4,22 +4,22 @@ import Image from "next/image";
 export default function service() {
   const serviceCards = [
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p5-vaid-med-del-service/stat-orange.svg",
       heading: "STAT Deliveries",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p5-vaid-med-del-service/cold-chain-orange.svg",
       heading: "Cold Chain Logistics",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p5-vaid-med-del-service/location-orange.svg",
       heading: "Good and on-time service",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p5-vaid-med-del-service/multi-state-orange.svg",
       heading: "Multi-State Solutions",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
     },
@@ -45,7 +45,7 @@ export default function service() {
                 className="aspect-square rounded-2xl"
                 height="200"
                 src={item.src}
-                width="70"
+                width="90"
               />
             </div>
             <div className="mx-[4vw]">

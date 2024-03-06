@@ -41,7 +41,7 @@ export default function questions() {
               alt="1"
               className="aspect-square rounded-full"
               height="200"
-              src="\assets\vaid-page-2\8-have-any-ques\icon.svg"
+              src="/assets/vaid-page-2/p8-have-any-ques/icon.svg"
               width="35"
             />
             <span className="text-2xl font-bold">{item.text}</span>

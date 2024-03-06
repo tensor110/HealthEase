@@ -4,23 +4,23 @@ import Image from "next/image";
 export default function order() {
     const orderCards = [
         {
-          src: "/image.jpg",
+          src: "/assets/vaid-page-2/p6-how-to-order/choose.svg",
           heading: "Choose the product you want to order",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         },
         {
-          src: "/image.jpg",
+          src: "/assets/vaid-page-2/p6-how-to-order/pay.svg",
           heading: "Pay for the item, and it will be processed",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         },
         {
-          src: "/image.jpg",
+          src: "/assets/vaid-page-2/p6-how-to-order/wait.svg",
           heading: "Please wait, your order will arrive soon",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         },
         {
-          src: "/image.jpg",
-          heading: "Your oredr ha ssuccesfully arrived",
+          src: "/assets/vaid-page-2/p6-how-to-order/success.svg",
+          heading: "Your order ha succesfully arrived",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
         },
       ];

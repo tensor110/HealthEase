@@ -4,22 +4,22 @@ import Image from "next/image";
 export default function choose() {
   const chooseItems = [
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p4-why-choose/truck-orange.svg",
       heading: "Experienced Driver",
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p4-why-choose/quick--orange.svg",
       heading: "Quick Delivery",
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p4-why-choose/api-orange.svg",
       heading: "Integration of API",
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/p4-why-choose/service-orange.svg",
       heading: "Outstanding Service",
       text: "Lorem ipsum dolor sit amet, consectetur adipisicing",
     },

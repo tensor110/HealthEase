@@ -4,22 +4,22 @@ import React from "react";
 export default function team() {
   const teamItems = [
     {
-      src: "/image.jpg",
+      src: "/assets/Vaid-page-1/p5-our-team/user-cover-1.png",
       name: "Doctor Name",
       specialization: "Specialization",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/Vaid-page-1/p5-our-team/user-cover-2.png",
       name: "Doctor Name",
       specialization: "Specialization",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/Vaid-page-1/p5-our-team/user-cover-3.png",
       name: "Doctor Name",
       specialization: "Specialization",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/Vaid-page-1/p5-our-team/user-cover-4.png",
       name: "Doctor Name",
       specialization: "Specialization",
     },
@@ -39,7 +39,7 @@ export default function team() {
           <div key ={index} className="bg-white text-black w-[23%] h-[78vh] rounded-3xl">
             <Image
               alt="1"
-              className="aspect-square h-[50vh] rounded-t-3xl"
+              className="aspect-[8/9] rounded-t-3xl"
               height="100"
               src= {item.src}
               width="250"
@@ -47,10 +47,28 @@ export default function team() {
             <div className="flex flex-col justify-center items-center">
               <div className="text-xl font-bold mt-8">{item.name}</div>
               <div className="text-base font-light my-3">{item.specialization}</div>
-              <div className="w-full h-[7vh]">
-                <div></div>
-                <div></div>
-                <div></div>
+              <div className="w-full h-[7vh] flex justify-center gap-[1.2vw]">
+                <div><Image
+              alt="1"
+              className="aspect-square rounded-full"
+              height="100"
+              src= "/assets/Vaid-page-1/p5-our-team/facebook.svg"
+              width="25"
+            /></div>
+                <div><Image
+              alt="1"
+              className="aspect-square rounded-full"
+              height="100"
+              src= "/assets/Vaid-page-1/p5-our-team/instagram.svg"
+              width="25"
+            /></div>
+                <div><Image
+              alt="1"
+              className="aspect-square rounded-full"
+              height="100"
+              src= "/assets/Vaid-page-1/p5-our-team/twitter.svg"
+              width="25"
+            /></div>
               </div>
             </div>
           </div>

@@ -3,17 +3,17 @@ import Image from 'next/image'
 
 export default function book() {
     const bookCards = [
-        {src: "/image.jpg", top: "Heart Surgery", bottom: "Service"},
-        {src: "/image.jpg", top: "Location", bottom: "Delhi"},
-        {src: "/image.jpg", top: "Patient", bottom: "Ankit"},
-        {src: "/image.jpg", top: "Date / time", bottom: "12 dec / 11.00 am"},
+        {src: "/assets/vaid-page-3/p1-book-an-appointment/Frame 10.svg", top: "Heart Surgery", bottom: "Service"},
+        {src: "/assets/vaid-page-3/p1-book-an-appointment/location.svg", top: "Location", bottom: "Delhi"},
+        {src: "/assets/vaid-page-3/p1-book-an-appointment/Frame 12.svg", top: "Patient", bottom: "Ankit"},
+        {src: "/assets/vaid-page-3/p1-book-an-appointment/calendar.svg", top: "Date / time", bottom: "12 dec / 11.00 am"},
     ]
   return (
     <div className='flex flex-col bg-[#d4eded] h-[70vh] gap-[5vh] items-center justify-center'>
       <div className='text-5xl font-semibold'>Book an appontment</div>
       <div className='flex justify-between w-[90%] gap-[3vw]'>
         {bookCards.map((item, index)=>(
-            <div key = {index} className='bg-[#28a4a4] px-5 py-8 flex w-1/4 h-fit justify-center items-center gap-[1vw] rounded-2xl'>
+            <div key = {index} className='bg-[#28a4a4] px-5 py-8 flex w-1/4 h-fit justify-start items-center gap-[1vw] rounded-2xl'>
                 <Image
                 alt="1"
                 className="aspect-square rounded-2xl"

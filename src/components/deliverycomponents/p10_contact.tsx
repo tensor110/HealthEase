@@ -36,11 +36,20 @@ export default function contact() {
               <span className="font-medium">+91 6367764265</span>
             </div>
             <div className="flex gap-[3vw]">
-              <span className="border-[1px] border-white w-12 h-12 rounded-2xl">
+              <span>
                 <Image
                   alt="1"
                   height="200"
-                  src="\assets\vaid-page-2\9-contact-form\You tube.svg"
+                  className="aspect-square rounded-2xl"
+                  src="/assets/vaid-page-2/p9-contact-form/You tube.svg"
+                  width="56"
+                />
+              </span>
+              <span className="border-[1px] border-white w-12 h-12 rounded-2xl">
+              <Image
+                  alt="1"
+                  height="200"
+                  src="/assets/vaid-page-2/p9-contact-form/Twitter.svg"
                   width="180"
                 />
               </span>
@@ -48,7 +57,7 @@ export default function contact() {
               <Image
                   alt="1"
                   height="200"
-                  src="\assets\vaid-page-2\9-contact-form\Twitter.svg"
+                  src="/assets/vaid-page-2/p9-contact-form/Ig.svg"
                   width="180"
                 />
               </span>
@@ -56,15 +65,7 @@ export default function contact() {
               <Image
                   alt="1"
                   height="200"
-                  src="\assets\vaid-page-2\9-contact-form\Ig.svg"
-                  width="180"
-                />
-              </span>
-              <span className="border-[1px] border-white w-12 h-12 rounded-2xl">
-              <Image
-                  alt="1"
-                  height="200"
-                  src="\assets\vaid-page-2\9-contact-form\FB.svg"
+                  src="/assets/vaid-page-2/p9-contact-form/FB.svg"
                   width="180"
                 />
               </span>

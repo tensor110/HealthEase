@@ -9,7 +9,7 @@ export default function department() {
       star: '4.9',
       title: "Quick Examination",
       text: "Text For the mentioned service write here the content you want here to present.....",
-      src: "../../public/image.jpg",
+      src:"/assets/Vaid-page-1/p3-our-department/depratment1.png",
       sales: "15",
       original_price: "1648",
       discounted_price: "648",
@@ -19,6 +19,7 @@ export default function department() {
       star: '4.9',
       title: "Online Appointment",
       text: "Text For the mentioned service write here the content you want here to present.....",
+      src:"/assets/Vaid-page-1/p3-our-department/department2.png",
       sales: "15",
       original_price: "1648",
       discounted_price: "648",
@@ -28,13 +29,14 @@ export default function department() {
       star: '4.9',
       title: "Emergency Case",
       text: "Text For the mentioned service write here the content you want here to present.....",
+      src:"/assets/Vaid-page-1/p3-our-department/department3.png",
       sales: "15",
       original_price: "1648",
       discounted_price: "648",
     },
   ];
   return (
-    <div className="bg-[#28a4a4] w-full h-[195vh] mt-[15%] px-[10%] pt-[10%]">
+    <div className="bg-[#28a4a4] w-full h-[195vh] mt-[5%] px-[10%] pt-[10%]">
       <span className="text-white font-medium text-base">Practice Advice</span>
       <div className="text-white text-4xl font-bold mt-5 mb-5">
         Our Department
@@ -54,7 +56,7 @@ export default function department() {
                 alt="1"
                 className="aspect-square rounded-t-lg absolute w-[25vw] h-[50vh] z-10"
                 height="100"
-                src="/image.jpg"
+                src= {item.src}
                 width="350"
               />
               <div className="absolute z-20 p-[1%]">
@@ -63,13 +65,31 @@ export default function department() {
                 </div>
                 <div className="absolute z-20 flex justify-between w-[10vw] mt-[38vh] ml-[7vw]">
                   <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">
-                    1
+                  <Image
+                alt="1"
+                className=""
+                height="100"
+                src="/assets/Vaid-page-1/p3-our-department/like.svg"
+                width="50"
+              />
                   </div>
                   <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">
-                    2
+                  <Image
+                alt="1"
+                className=""
+                height="100"
+                src="/assets/Vaid-page-1/p3-our-department/basket.svg"
+                width="50"
+              />
                   </div>
                   <div className="bg-white rounded-full w-10 h-10 flex justify-center items-center">
-                    3
+                  <Image
+                alt="1"
+                className=""
+                height="100"
+                src="/assets/Vaid-page-1/p3-our-department/view.svg"
+                width="50"
+              />
                   </div>
                 </div>
               </div>
@@ -79,7 +99,15 @@ export default function department() {
                 <span className="text-[#ff685b] font-medium text-base mb-2">
                   {item.feature}
                 </span>
-                <span className="bg-black text-white px-4 py-1 rounded-2xl">{item.star}</span>
+                <span className="bg-black text-white px-2 py-1 rounded-2xl flex justify-center gap-2">
+                <Image
+                alt="1"
+                className=""
+                height="100"
+                src="/assets/Vaid-page-1/p3-our-department/star-1.svg"
+                width="15"
+              />
+              {item.star}</span>
               </div>
               <span className="text-black font-bold text-lg mb-2">
                 {item.title}
@@ -87,14 +115,14 @@ export default function department() {
               <p className="text-black font-light text-base w-4/5 mb-1">
                 {item.text}
               </p>
-              <div>
-                <Image
-                  alt="1"
-                  className=""
-                  height="200"
-                  src="/image.jpg"
-                  width="3"
-                />
+              <div className="flex gap-2">
+              <Image
+                alt="1"
+                className=""
+                height="100"
+                src="/assets/Vaid-page-1/p3-our-department/downloads.svg"
+                width="15"
+              />
                 <span className="text-[#c2c2c2] font-bold text-base">
                     {item.sales} Sales
                 </span>
@@ -107,8 +135,15 @@ export default function department() {
                   ₹ {item.discounted_price}
                 </span>
               </div>
-              <button className="border-[1px] border-[#ff685b] text-[#ff685b] font-bold rounded-full px-5 py-3 my-2 w-[50%]">
-                Learn More {">"}
+              <button className="border-[1px] border-[#ff685b] text-[#ff685b] font-bold rounded-full px-4 py-3 my-2 w-[50%] flex gap-2 items-center">
+                Learn More
+                <Image
+                alt="1"
+                className=""
+                height="100"
+                src="/assets/Vaid-page-1/p3-our-department/learnMore2.svg"
+                width="10"
+              />
               </button>
             </div>
           </div>
