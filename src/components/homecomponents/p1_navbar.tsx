@@ -1,33 +1,58 @@
 "use client";
 import React, { useState } from "react";
-import Arrow from '../../public/next.svg'
+import Image from "next/image";
+import Arrow from "../../public/next.svg";
 
 const Navbar: React.FC = () => {
   const navItems = [
-  { text: 'Home', url: '/' },
-  { text: 'Product', url: '/' },
-  { text: 'Pricing', url: '/' },
-  { text: 'Contact', url: '/' }
-]
-//   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-//   const [isHamburgerClicked, setIsHamburgerClicked] = useState(false);
+    { text: "Home", url: "/" },
+    { text: "Product", url: "/" },
+    { text: "Pricing", url: "/" },
+    { text: "Contact", url: "/" },
+  ];
+  //   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  //   const [isHamburgerClicked, setIsHamburgerClicked] = useState(false);
 
-//   const handleHamburgerClick = () => {
-//     setIsMobileMenuOpen(!isMobileMenuOpen);
-//     setIsHamburgerClicked(!isHamburgerClicked);
-//   };
+  //   const handleHamburgerClick = () => {
+  //     setIsMobileMenuOpen(!isMobileMenuOpen);
+  //     setIsHamburgerClicked(!isHamburgerClicked);
+  //   };
   return (
     <>
       <div className="flex justify-between items-center align-middle text-black w-full h-14 px-[10%]">
-        <div className="w-1/5 text-2xl font-bold">Va<span className="text-[#115faa]">id</span></div>
+        <div className="flex items-center">
+          <Image
+            alt="1"
+            className="aspect-square rounded-full"
+            height="100"
+            src="/assets/Vaid Logo.svg"
+            width="80"
+          />
+          <div className="w-1/5 text-2xl font-bold">
+            Va<span className="text-[#115faa]">id</span>
+          </div>
+        </div>
         <div className="hidden lg:flex justify-between w-2/6 text-[#737373] font-semibold">
-          {navItems.map((item, index)=>(
-            <a href={item.url} key={index}>{item.text}</a>
+          {navItems.map((item, index) => (
+            <a href={item.url} key={index}>
+              {item.text}
+            </a>
           ))}
         </div>
-        <div className="flex w-[20%] justify-between align-middle font-bold">
-                <a href="" className="text-[#fb5d3a] pt-2 pr-10">About Us</a>
-                <button className="bg-[#fb5d3a] px-7 py-2 text-white rounded">Login</button>
+        <div className="flex w-[25%] justify-between align-middle font-bold">
+          <a href="" className="text-[#fb5d3a] pt-2 pr-10">
+            About Us
+          </a>
+          <button className="bg-[#fb5d3a] px-7 py-2 text-white rounded gap-[1vw] flex items-center">
+            Login
+            <Image
+              alt="1"
+              className="aspect-square rounded-full"
+              height="100"
+              src="/assets/LoginArrow.svg"
+              width="12"
+            />
+          </button>
         </div>
 
         {/* <div className="lg:hidden">
@@ -81,6 +106,6 @@ const Navbar: React.FC = () => {
       )} */}
     </>
   );
-}
+};
 
 export default Navbar;

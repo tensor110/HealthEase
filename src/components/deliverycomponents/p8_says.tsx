@@ -4,19 +4,19 @@ import Image from "next/image";
 export default function says() {
   const statsCards = [
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/see-what-other/person-test-1.png",
       name: "Ravindra Gupta",
       profession: "Future Group Facilitator",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eos voluptatum quod ullam reiciendis, molestias cumque nulla officia ea repudiandae minus obcaecati ut? Eaque, delectus?",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/see-what-other/person-test-2.png",
       name: "Dilesh Chouhan",
       profession: "Dynamic Usability Specialist",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eos voluptatum quod ullam reiciendis, molestias cumque nulla officia ea repudiandae minus obcaecati ut? Eaque, delectus?",
     },
     {
-      src: "/image.jpg",
+      src: "/assets/vaid-page-2/see-what-other/person-test-3.png",
       name: "Ayush Soni",
       profession: "Corporate Markets Consultant",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eos voluptatum quod ullam reiciendis, molestias cumque nulla officia ea repudiandae minus obcaecati ut? Eaque, delectus?",

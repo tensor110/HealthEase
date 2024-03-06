@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function contact() {
   return (
@@ -36,16 +37,36 @@ export default function contact() {
             </div>
             <div className="flex gap-[3vw]">
               <span className="border-[1px] border-white w-12 h-12 rounded-2xl">
-                img
+                <Image
+                  alt="1"
+                  height="200"
+                  src="\assets\vaid-page-2\9-contact-form\You tube.svg"
+                  width="180"
+                />
               </span>
               <span className="border-[1px] border-white w-12 h-12 rounded-2xl">
-                img
+              <Image
+                  alt="1"
+                  height="200"
+                  src="\assets\vaid-page-2\9-contact-form\Twitter.svg"
+                  width="180"
+                />
               </span>
               <span className="border-[1px] border-white w-12 h-12 rounded-2xl">
-                img
+              <Image
+                  alt="1"
+                  height="200"
+                  src="\assets\vaid-page-2\9-contact-form\Ig.svg"
+                  width="180"
+                />
               </span>
               <span className="border-[1px] border-white w-12 h-12 rounded-2xl">
-                img
+              <Image
+                  alt="1"
+                  height="200"
+                  src="\assets\vaid-page-2\9-contact-form\FB.svg"
+                  width="180"
+                />
               </span>
             </div>
           </div>
@@ -72,11 +93,20 @@ export default function contact() {
             </div>
             <div className="flex flex-col gap-[3vh]">
               <span className="text-xl font-semibold">Message</span>
-              <textarea name="" id="" cols={20} rows={4}
-              className="w-full border-[1px] border-black px-3 py-3 rounded-2xl"></textarea>
+              <textarea
+                name=""
+                id=""
+                cols={20}
+                rows={4}
+                className="w-full border-[1px] border-black px-3 py-3 rounded-2xl"
+              ></textarea>
             </div>
             <div className="my-[2vh]">
-              <input type="submit" value="Submit" className="bg-[#28a4a4] w-full py-[3vh] rounded-2xl text-white font-semiboldd text-xl cursor-pointer" />
+              <input
+                type="submit"
+                value="Submit"
+                className="bg-[#28a4a4] w-full py-[3vh] rounded-2xl text-white font-semiboldd text-xl cursor-pointer"
+              />
             </div>
           </div>
         </div>

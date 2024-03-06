@@ -1,14 +1,14 @@
 import Image from "next/image";
-import Navbar from '../components/homecomponents/navbar'
-import Homme from '../components/homecomponents/home'
-import Card1 from '../components/homecomponents/firstcard'
-import Detail from '../components/homecomponents/details'
-import Meet from '../components/homecomponents/meet'
-import Department from '../components/homecomponents/department'
-import Customer from '../components/homecomponents/customers'
-import Team from '../components/homecomponents/team'
-import Contact from '../components/homecomponents/contact'
-import Footer from '../components/homecomponents/footer'
+import Navbar from '../components/homecomponents/p1_navbar'
+import Homme from '../components/homecomponents/p2_home'
+import Card1 from '../components/homecomponents/p3_firstcard'
+import Detail from '../components/homecomponents/p4_details'
+import Meet from '../components/homecomponents/p5_meet'
+import Department from '../components/homecomponents/p6_department'
+import Customer from '../components/homecomponents/p7_customers'
+import Team from '../components/homecomponents/p8_team'
+import Contact from '../components/homecomponents/p9_contact'
+import Footer from '../components/homecomponents/p10_footer'
 
 export default function Home() {
   return (
