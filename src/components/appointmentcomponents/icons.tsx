@@ -14,7 +14,7 @@ export default function icons() {
     <div className='bg-[#e5f9f7] h-[110vh] flex justify-center items-center'>
       <div className='w-2/3 flex flex-wrap justify-between gap-[4vw]'>
         {iconCards.map((item, index)=>(
-            <div className='bg-white w-[29%] flex flex-col justify-center px-[2vw] py-[2vw] gap-[3vh] rounded-3xl'>
+            <div key ={index} className='bg-white w-[29%] flex flex-col justify-center px-[2vw] py-[2vw] gap-[3vh] rounded-3xl'>
                 <Image
                 alt="1"
                 className="aspect-video rounded-2xl"
