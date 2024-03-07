@@ -39,10 +39,10 @@ export default function team() {
           <div key ={index} className="bg-white text-black w-[23%] h-[78vh] rounded-3xl">
             <Image
               alt="1"
-              className="aspect-[8/9] rounded-t-3xl"
+              className="aspect-[8/9] w-full h-[65%] rounded-t-3xl"
               height="100"
               src= {item.src}
-              width="250"
+              width="400"
             />
             <div className="flex flex-col justify-center items-center">
               <div className="text-xl font-bold mt-8">{item.name}</div>

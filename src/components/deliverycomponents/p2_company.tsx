@@ -15,65 +15,73 @@ export default function company() {
       </div>
       <div className="w-2/3">
         <div className="flex flex-col gap-10">
-          <div className="flex justify-center items-center">
-            <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="rounded-full"><Image
+          <div className="flex justify-center items-center gap-[4vw]">
+            <div className="w-1/2 flex justify-end items-center">
+              <Image
               alt="1"
-              className="rounded-full aspect-square"
+              className=""
               height="200"
               src="/assets/vaid-page-2/p2-trusted-by-top-companies/labadiellc.svg"
-              width="50"
-            /></span>
-              <div className="flex flex-col">
-                <span className="text-lg font-semibold">LABADIE LLC</span>
-                <span className="text-sm font-extralight">Time is Golden</span>
-              </div>
+              width="180"
+            />
             </div>
-            <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="bg-white text-black rounded-full">Logo</span>
-              <div className="flex flex-col">
-                <span className="text-lg font-semibold">SCHUMM SCHULTZ</span>
-                <span className="text-sm font-extralight">Work of The Nation{"'"}s Childern</span>
-              </div>
+            <div className="w-1/2 flex justify-start items-center">
+              <Image
+              alt="1"
+              className=""
+              height="200"
+              src="/assets/vaid-page-2/p2-trusted-by-top-companies/schumm.svg"
+              width="200"
+            />
             </div>
           </div>
-          <div className="flex">
-            <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="bg-white text-black rounded-full">Logo</span>
-              <div className="flex flex-col">
-                <span className="text-lg font-semibold">BAYER GROUP</span>
-                <span className="text-sm font-extralight">Children of The Nation</span>
-              </div>
+          <div className="flex justify-center items-center gap-[4vw]">
+            <div className="w-1/2 flex justify-end items-center">
+              <Image
+              alt="1"
+              className=""
+              height="200"
+              src="/assets/vaid-page-2/p2-trusted-by-top-companies/bayergroup.svg"
+              width="180"
+            />
             </div>
-            <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="bg-white text-black rounded-full">Logo</span>
-              <div className="flex flex-col">
-                <span className="text-lg font-semibold">WUCKERT INC</span>
-                <span className="text-sm font-extralight">Gold Time Everybody</span>
-              </div>
+            <div className="w-1/2 flex justify-center items-center">
+              <Image
+              alt="1"
+              className=""
+              height="200"
+              src="/assets/vaid-page-2/p2-trusted-by-top-companies/wucketinc.svg"
+              width="200"
+            />
             </div>
-            <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="bg-white text-black rounded-full">Logo</span>
-              <div className="flex flex-col">
-                <span className="text-lg font-semibold">WUCKERT inc</span>
-                <span className="text-sm font-extralight">Gold Time Everybody</span>
-              </div>
+            <div className="w-1/2 flex justify-start items-center">
+              <Image
+              alt="1"
+              className=""
+              height="200"
+              src="/assets/vaid-page-2/p2-trusted-by-top-companies/labadiellc.svg"
+              width="200"
+            />
             </div>
           </div>
-          <div className="flex">
-            <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="bg-white text-black rounded-full">Logo</span>
-              <div className="flex flex-col">
-                <span className="text-lg font-semibold">LABADIE LLC</span>
-                <span className="text-sm font-extralight">Time is Golden</span>
-              </div>
+          <div className="flex justify-center items-center gap-[4vw]">
+            <div className="w-1/2 flex justify-end items-center">
+              <Image
+              alt="1"
+              className=""
+              height="200"
+              src="/assets/vaid-page-2/p2-trusted-by-top-companies/wucketinc.svg"
+              width="180"
+            />
             </div>
-            <div className="w-1/2 flex justify-center items-center gap-4">
-              <span className="bg-white text-black rounded-full">Logo</span>
-              <div className="flex flex-col">
-                <span className="text-lg font-semibold">SCHUMM SCHULTZ</span>
-                <span className="text-sm font-extralight">Work of The Nation{"'"}s Childern</span>
-              </div>
+            <div className="w-1/2 flex justify-start items-center">
+              <Image
+              alt="1"
+              className=""
+              height="200"
+              src="/assets/vaid-page-2/p2-trusted-by-top-companies/schumm.svg"
+              width="200"
+            />
             </div>
           </div>
         </div>

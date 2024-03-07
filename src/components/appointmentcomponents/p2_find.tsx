@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function find() {
   return (
     <div className="flex justify-between mx-[8vw]">
-      <div className="w-3/5 flex flex-col gap-[4vh] my-[10vh]">
+      <div className="w-3/5 flex flex-col gap-[4vh] mt-[10vh]">
         <div className="text-7xl font-base">
           Find the Best Doctors for Your Health Concerns
         </div>

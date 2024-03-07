@@ -26,7 +26,7 @@ export default function customers() {
     },
   ];
   return (
-    <div className="my-[5vh] p-[10vw] h-[110vh]">
+    <div className="my-[15vh] px-[10vw] h-[100vh] flex flex-col justify-center">
       <div>
         <span className="text-[#ff685b] font-bold text-base">Reviews</span>
         <div className="text-[#28a4a4] font-bold text-5xl tracking-wider">
