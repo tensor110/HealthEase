@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function find() {
   return (
-    <div className="flex justify-between mx-[8vw]">
-      <div className="w-3/5 flex flex-col gap-[4vh] mt-[10vh]">
+    <div className="flex justify-between mx-[8vw] w-1/2">
+      <div className="w-full flex flex-col gap-[4vh] my-[10vh]">
         <div className="text-7xl font-base">
           Find the Best Doctors for Your Health Concerns
         </div>
@@ -18,11 +18,12 @@ export default function find() {
       <div>
       <Image
             alt="1"
-            className="aspect-auto"
+            className="aspect-auto absolute right-40 top-32 z-20"
             height="100"
             src="/assets/vaid-page-3/PngItem_1939059 3.png"
-            width="400"
+            width="300"
           />
+          <div className='bg-[#28a4a4] w-[17vw] h-[60vh] absolute right-44 top-20 rounded-3xl'>.</div>
       </div>
     </div>
   );

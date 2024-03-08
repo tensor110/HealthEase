@@ -41,7 +41,7 @@ export default function department() {
       <div className="text-white text-4xl font-bold mt-5 mb-5">
         Our Department
       </div>
-      <p className="font-light text-base text-white w-[43%]">
+      <p className="font-light text-base text-white w-2/3">
       Our department is dedicated to pushing the boundaries of medical innovation, research, and patient care. We are a team of passionate professionals who collaborate to make a meaningful impact on global health.
       </p>
       <div className="flex justify-between mt-[5%]">

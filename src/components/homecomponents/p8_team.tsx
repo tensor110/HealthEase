@@ -46,24 +46,24 @@ export default function team() {
             <div className="flex flex-col justify-center items-center">
               <div className="text-xl font-bold mt-8">{item.name}</div>
               <div className="text-base font-light my-3">{item.specialization}</div>
-              <div className="w-full h-[7vh] flex justify-center gap-[1.2vw]">
+              <div className="w-full h-[7vh] flex justify-center gap-[1.4vw]">
                 <div><Image
               alt="1"
-              className="aspect-square rounded-full"
+              className="aspect-square"
               height="100"
               src= "/assets/Vaid-page-1/p5-our-team/facebook.svg"
               width="25"
             /></div>
                 <div><Image
               alt="1"
-              className="aspect-square rounded-full"
+              className="aspect-square"
               height="100"
               src= "/assets/Vaid-page-1/p5-our-team/instagram.svg"
               width="25"
             /></div>
                 <div><Image
               alt="1"
-              className="aspect-square rounded-full"
+              className="aspect-square"
               height="100"
               src= "/assets/Vaid-page-1/p5-our-team/twitter.svg"
               width="25"

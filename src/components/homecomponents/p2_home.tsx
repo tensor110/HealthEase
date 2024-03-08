@@ -15,14 +15,15 @@ export default function home() {
         </div>
       </div>
     </div>
-    <div className='w-[55%] flex items-center absolute right-0 bottom-40'>
+    <div className='w-[55%] flex items-center absolute right-2 bottom-40'>
     <Image
               alt="1"
-              className="aspect-auto absolute"
+              className="aspect-auto absolute z-10"
               height="150"
               src="/assets/Vaid-page-1/p1-Hero/oldDoctor.svg"
               width="900"
             />
+      <div className='bg-[#e5f9f7] w-[37vw] h-[100vh] absolute right-10 -mt-[25vh] rounded-3xl'>.</div>
     </div>
     </div>
   )
