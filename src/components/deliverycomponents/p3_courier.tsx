@@ -24,7 +24,7 @@ export default function courier() {
               width="700"
             />
       <p className="w-2/3 text-center py-[3%]">
-      When it comes to medical courier services, prompt and reliable delivery is essential. Whether it's transporting critical specimens, medications, or medical equipment, these services play a vital role in healthcare logistics. We Offer timely deliveries Of medical supplies anywhere in India. Their feature-packed medical courier service saves time and reduces shipping costs.
+      When it comes to medical courier services, prompt and reliable delivery is essential. Whether it{"'"}s transporting critical specimens, medications, or medical equipment, these services play a vital role in healthcare logistics. We Offer timely deliveries Of medical supplies anywhere in India. Their feature-packed medical courier service saves time and reduces shipping costs.
       </p>
          </div>
   )

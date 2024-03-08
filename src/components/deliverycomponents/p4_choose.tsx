@@ -29,7 +29,7 @@ export default function choose() {
       <div className="flex flex-col w-1/2 gap-4">
         <div className="text-7xl font-bold text-white">Why Choose Vaid?</div>
         <p className="text-base font-medium w-4/5 tracking-wide text-white">
-        Certainly! When choosing a company, it's essential to consider what sets one apart from the others. Here are some reasons why this company stands out:
+        Certainly! When choosing a company, it{"'"}s essential to consider what sets one apart from the others. Here are some reasons why this company stands out:
         </p>
       </div>
       <div className="w-1/2 flex flex-wrap gap-6">
