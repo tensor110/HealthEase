@@ -19,9 +19,7 @@ export default function delhome() {
           Specialist
         </span>
         <p className="text-black text-sm w-2/3 py-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          numquam enim earum hic maxime delectus! Dicta vitae rerum ex!
-          Asperiores?
+        Our Courier Specialists play a crucial role in ensuring the safe and efficient transport of medical supplies, pharmaceuticals, and biological materials.
         </p>
         <div className="flex w-[45%] justify-between items-center my-6">
           <button className="text-white bg-[#28a4a4] px-12 py-4 rounded-full text-lg font-semibold">

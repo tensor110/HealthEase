@@ -5,37 +5,48 @@ export default function customers() {
   const customersItem = [
     {
       star: "/assets/Vaid-page-1/p4-happy-customer/stars.svg",
-      text: "Medicines are chemicals or compounds used to cure, halt, or prevent disease; ease symptoms.",
+      text: "it gives detailed information of the tests and labs. It maintain records for each reports and prescription, really helpful app.",
       photo: "/assets/Vaid-page-1/p4-happy-customer/customer1.png",
       name: "Name",
       profession: "profession",
     },
     {
       star: "/assets/Vaid-page-1/p4-happy-customer/stars.svg",
-      text: "Medicines are chemicals or compounds used to cure, halt, or prevent disease; ease symptoms.",
+      text: "Vaid gave me the freedom to choose the best lab,slot and test based on the prices.",
       photo: "/assets/Vaid-page-1/p4-happy-customer/customer1.png",
       name: "Name",
       profession: "profession",
     },
     {
       star: "/assets/Vaid-page-1/p4-happy-customer/stars.svg",
-      text: "Medicines are chemicals or compounds used to cure, halt, or prevent disease; ease symptoms.",
+      text: "i had the best experience with Vaid.The booking process was easy and seamless,",
       photo: "/assets/Vaid-page-1/p4-happy-customer/customer1.png",
       name: "Name",
       profession: "profession",
     },
   ];
   return (
-    <div className="my-[15vh] px-[10vw] h-[100vh] flex flex-col justify-center">
-      <div>
+    <div className="mb-[15vh] px-[10vw] h-[100vh] flex flex-col justify-center">
+      <div className="flex">
+      
+        <div className="w-2/3 mt-[15vh]">
         <span className="text-[#ff685b] font-bold text-base">Reviews</span>
         <div className="text-[#28a4a4] font-bold text-5xl tracking-wider">
           Happy Customers
         </div>
-        <p className="w-1/2 text-black font-light text-sm mt-3">
-          Text For the mentioned service write here the content you want here to
-          present. Vaid is the fastest growing website for medical uses.
+        <p className="w-full text-black font-light text-sm mt-3">
+        When patients feel satisfied and well-served, it reflects positively on the healthcare provider. Vaid is the fastest growing website for medical uses..
         </p>
+        </div>
+        <div className="">
+        <Image
+              alt="1"
+              className="aspect-auto absolute"
+              height="100"
+              src="/assets/Vaid-page-1/p4-happy-customer/happyCustomer.svg"
+              width="500"
+            />
+        </div>
       </div>
       <div className="flex justify-between mt-[6%] h-[40vh]">
       {customersItem.map((item, index) => (

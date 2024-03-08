@@ -24,11 +24,19 @@ export default function questions() {
   ];
   return (
     <div className="bg-[#28a4a4] w-full h-screen my-[6vh] py-[15vh] px-[10vh] flex justify-between">
+      <div>
+      <Image
+              alt="1"
+              className="absolute aspect-auto mt-[35vh] -ml-[10vh]"
+              height="200"
+              src="/radial 3.png"
+              width="500"
+            />
+      </div>
       <div className="flex flex-col w-1/3 gap-4">
         <div className="text-7xl font-bold text-white">Have Any Questions?</div>
         <p className="text-base font-medium w-4/5 tracking-wide text-white">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-          aliquam obcaecati eius perspiciatis expedita.
+        Ask anything, we are always here for your support.
         </p>
       </div>
       <div className="w-[60%] h-[70vh] flex flex-col bg-white rounded-3xl py-[25vh] px-[5vw] gap-[4vh] justify-center">

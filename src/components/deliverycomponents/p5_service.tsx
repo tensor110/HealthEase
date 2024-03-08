@@ -26,14 +26,21 @@ export default function service() {
   ];
   return (
     <div className="flex flex-col items-center my-[15vh] gap-[20vh] bg-[#fafafa]">
+      <div>
+      <Image
+              alt="1"
+              className="absolute aspect-auto -mt-[20vh] left-0"
+              height="200"
+              src="/radial 1.png"
+              width="250"
+            />
+      </div>
       <div className="w-[75%] flex flex-col gap-4 items-center">
         <div className="text-6xl font-bold">
           The VAID Medical Delivery Service
         </div>
         <p className="text-center text-base font-medium w-[90%]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsa
-          nobis, minus odit aliquam voluptatem cupiditate. Excepturi dolorum
-          dolor enim dolorn ehgn.
+        Known for trust,reliability and quality services.
         </p>
       </div>
       <div className="flex w-[85%] gap-10 flex-wrap justify-between">

@@ -4,13 +4,21 @@ import Image from "next/image";
 export default function company() {
   return (
     <div className="bg-[#28a4a4] text-white flex items-center align-middle w-full h-[60vh]">
-      <div className="w-[50%] px-14">
+        <div className="">
+        <Image
+              alt="1"
+              className="absolute -mt-56 z-20"
+              height="200"
+              src="/radial 2.png"
+              width="180"
+            />
+        </div>
+      <div className="w-[50%] px-14 z-10">
         <span className="text-6xl font-bold">
           Trusted By Top Companies
         </span>
         <p className="text-base font-medium tracking-wide pt-3">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
-          aliquid inventore ex voluptatum sed!
+        When it comes to trust, we prioritize reliability, quality, and customer satisfaction.
         </p>
       </div>
       <div className="w-2/3">

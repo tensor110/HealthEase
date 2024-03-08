@@ -7,19 +7,19 @@ export default function firstcard() {
     {
       src: "/assets/Vaid-page-1/p1-Hero/heartLogo.svg",
       heading: "Online/Physical Appointment",
-      text: "Text For the mentioned service write here the content you want here to present, Vaid is the fastest growing website for medical uses.",
+      text: "For you registration and appointment with doctor is made simpler. This will allow you to consult with healthcare professionals from the comfort of your home, eliminating the need for travel and waiting rooms.",
       href: "/appointment",
     },
     {
       src: "/assets/Vaid-page-1/p1-Hero/stethoIcon.svg",
       heading: "Test NearBy",
-      text: "Text For the mentioned servicewrite here the content you want....",
+      text: "Booking a test is now made simple.You just have to select your desired diagnostic center.Once you've booked the pathology test you need with the diagnostic centre you prefer, you Will get a confirmation on your registered e-mail id and SMS.",
       href: "/test",
     },
     {
       src: "/assets/Vaid-page-1/p1-Hero/reportLogo.svg",
       heading: "Order Medicine via Doctor's Prescription",
-      text: "Text For the mentioned service write here the content you want here to present........",
+      text: "Tired Of walking all the way to your local medicine store?N0w, order medicines online at Vaid.We make sure that you get your medicines in record time because we know how vital time is in any treatment. Sit back, and we will have all your medical necessities delivered to your doorstep.",
       href: "/delivery",
     },
   ];

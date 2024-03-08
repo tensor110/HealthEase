@@ -17,8 +17,7 @@ export default function meet() {
         Meet Our Experts
       </div>
       <p className="w-2/3 text-[#7c7c7c] font-light mb-[7%]">
-        Text For the mentioned service write here the content you want here to
-        present. Vaid is the fastest growing website for medical uses.
+      We are committed to transforming the future of health through scientific excellence, human- centered technologies, and trusted infrastructure. Our team roll call includes engineers, clinicians, designers, and researchers—all dedicated to helping everyone live healthier lives every day.
       </p>
       <span className="text-[#28a4a4] font-semibold flex items-center gap-2">
         Learn More{" "}

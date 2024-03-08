@@ -30,8 +30,7 @@ export default function team() {
         <span className="text-white font-bold text-lg">Team</span>
         <div className="text-white font-bold text-6xl tracking-wider my-6">Our Team</div>
         <p className="text-white font-light w-3/5 tracking-wide">
-          Text For the mentioned service write here the content you want here to
-          present. Vaid is the fastest growing website for medical uses.
+        We assure you a healthy life,always
         </p>
       </div>
       <div className="flex justify-between mt-[15vh]">

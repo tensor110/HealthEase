@@ -11,8 +11,7 @@ export default function contact() {
           Contact Us
         </span>
         <p className="text-black font-light text-center w-1/2">
-          Text For the mentioned service write here the content you want here to
-          present. Vaid is the fastest growing website for medical uses.
+        Text For the mentioned service write here the content you want here to present. Vaid is the fastest growing website for medical uses,
         </p>
         <div className="my-[7%]">
           <input

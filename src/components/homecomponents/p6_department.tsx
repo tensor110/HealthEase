@@ -8,7 +8,7 @@ export default function department() {
       feature: "Painless Procedures",
       star: '4.9',
       title: "Quick Examination",
-      text: "Text For the mentioned service write here the content you want here to present.....",
+      text: "Diagnostic tests available for quick evaluation. Examples include X-rays, blood tests, and rapid strep tests,",
       src:"/assets/Vaid-page-1/p3-our-department/depratment1.png",
       sales: "15",
       original_price: "1648",
@@ -18,7 +18,7 @@ export default function department() {
       feature: "Cancer Care",
       star: '4.9',
       title: "Online Appointment",
-      text: "Text For the mentioned service write here the content you want here to present.....",
+      text: "Encourage patients to book quick examination slots online. Any available features like real-time availability updates will be displayed.",
       src:"/assets/Vaid-page-1/p3-our-department/department2.png",
       sales: "15",
       original_price: "1648",
@@ -28,7 +28,7 @@ export default function department() {
       feature: "Best Dental Surgeons",
       star: '4.9',
       title: "Emergency Case",
-      text: "Text For the mentioned service write here the content you want here to present.....",
+      text: "Highlight the availability of urgent care services for patients who need immediate attention. These services are designed for quick assessments and treatment of non- life-threatening conditions.",
       src:"/assets/Vaid-page-1/p3-our-department/department3.png",
       sales: "15",
       original_price: "1648",
@@ -42,8 +42,7 @@ export default function department() {
         Our Department
       </div>
       <p className="font-light text-base text-white w-[43%]">
-        Text For the mentioned service write here the content you want here to
-        present. Vaid is the fastest growing website for medical uses.
+      Our department is dedicated to pushing the boundaries of medical innovation, research, and patient care. We are a team of passionate professionals who collaborate to make a meaningful impact on global health.
       </p>
       <div className="flex justify-between mt-[5%]">
         {departmentItems.map((item, index) => (

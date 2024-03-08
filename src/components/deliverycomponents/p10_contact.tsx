@@ -4,19 +4,23 @@ import Image from "next/image";
 export default function contact() {
   return (
     <div className="flex justify-center">
+      <div>
+      <Image
+              alt="1"
+              className="absolute aspect-auto mt-[108vh] -ml-[10vh]"
+              height="200"
+              src="/radial 6.png"
+              width="550"
+            />
+      </div>
       <div className="bg-gradient-to-b from-[#e3ebff] to-[#fafafa] w-[90%] h-[170vh] my-[15vh] flex flex-col items-center justify-center rounded-3xl gap-[12vh]">
         <div className="flex flex-col gap-[4vh] items-center">
           <span className="text-6xl text-black font-bold tracking-wide">
             Fill The Form To Contact Us
           </span>
-          <p className="font-semibold text-[#666666] tracking-wide w-4/5 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nulla,
-            voluptatem velit itaque ex excepturi at quos cumque, officia
-            mollitia distinctio doloribus nostrum tempore inventore.
-          </p>
         </div>
         <div className="flex justify-between w-[90%] gap-[3vw]">
-          <div className="bg-[#fb5d3a] text-white flex flex-col w-2/5 rounded-3xl px-[3vw] gap-[4vh] h-[85vh] py-[15vh]">
+          <div className="bg-[#fb5d3a] text-white flex flex-col w-2/5 rounded-3xl z-10 px-[3vw] gap-[4vh] h-[85vh] py-[15vh]">
             <span className="text-3xl font-semibold">Contact Information</span>
             <span className="font-semibold">
               Sed facilisis eleifend quam, non efficitur nisi mattis quis
