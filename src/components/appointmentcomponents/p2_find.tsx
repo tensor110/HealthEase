@@ -20,10 +20,10 @@ export default function find() {
             alt="1"
             className="aspect-auto absolute right-40 top-32 z-20"
             height="100"
-            src="/assets/vaid-page-3/PngItem_1939059 3.png"
-            width="300"
+            src="/assets/vaid-page-3/doctor 3rd.svg"
+            width="400"
           />
-          <div className='bg-[#28a4a4] w-[17vw] h-[60vh] absolute right-44 top-20 rounded-3xl'>.</div>
+          {/* <div className='bg-[#28a4a4] w-[19vw] h-[60vh] absolute right-48 top-20 rounded-3xl'>.</div> */}
       </div>
     </div>
   );
