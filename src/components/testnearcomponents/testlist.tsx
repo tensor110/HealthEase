@@ -33,7 +33,7 @@ export default function testlist() {
       </div>
       <div>
         {testlistCards.map((item, index) => (
-          <div>
+          <div key = {index}>
             <Image
               alt="1"
               className="aspect-square"
