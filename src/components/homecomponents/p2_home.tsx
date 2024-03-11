@@ -21,7 +21,7 @@ export default function home() {
               className="aspect-auto absolute z-10"
               height="150"
               src="/assets/Vaid-page-1/p1-Hero/doctor.svg"
-              width="700"
+              width="600"
             />
     </div>
     </div>
