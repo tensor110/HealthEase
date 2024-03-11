@@ -8,7 +8,7 @@ export default function home() {
       <div className='text-[#ff685b] my-[7%] font-medium'>Join Us</div>
       <div>
         <span className='text-7xl font-bold'>A Great Place to Receive Care</span>
-        <p className='my-[8%] text-xl font-medium text-[#737373] tracking-wide w-4/5'>You{"'"}re so naturally gifted when it comes to taking care of others, but now it{"'"}s time to let me take care of you for a change.</p>
+        <p className='my-[8%] text-xl font-medium text-[#737373] tracking-wide w-4/5'>You{"'"}re so naturally gifted when it comes to taking care of others, but now it{"'"}s time to let us take care of you for a change.</p>
         <div className='flex gap-4 font-medium'>
             <button className='bg-[#fb5d3a] px-12 py-4 text-white rounded'>Get Medicine Now</button>
             <button className='px-12 py-4 text-[#fb5d3a] border-2 border-[#fb5d3a] rounded'>Learn More</button>
