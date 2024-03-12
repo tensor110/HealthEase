@@ -32,9 +32,9 @@ export default function choose() {
         Certainly! When choosing a company, it{"'"}s essential to consider what sets one apart from the others. Here are some reasons why this company stands out:
         </p>
       </div>
-      <div className="w-1/2 flex flex-wrap gap-6">
+      <div className="w-1/2 flex flex-wrap gap-6 justify-between">
         {chooseItems.map((item, index) => (
-          <div key={index}  className="flex flex-col w-[45%] bg-white p-8 text-black gap-4 rounded-2xl border-[1px] border-black">
+          <div key={index}  className="flex flex-col w-[48%] bg-white p-8 text-black gap-4 rounded-2xl border-[1px] border-black">
             <Image
               alt="1"
               className="aspect-square rounded-2xl"

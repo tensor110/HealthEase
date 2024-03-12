@@ -21,7 +21,7 @@ export default function contact() {
             placeholder="Your Email"
             className="bg-[#f9f9f9] text-black outline-1 focus:outline-1 focus:border-gray-800  w-[50vw] h-[8vh] border-[1px] border-gray-300 rounded-s-md placeholder-gray-500 px-5 text-sm font-semibold"
           />
-          <button className="bg-[#fb5d3a] px-7 py-3 text-white font-extralight rounded-e-md">Submit</button>
+          <button className="bg-[#fb5d3a] px-7 h-[8vh] text-white font-extralight rounded-e-md">Submit</button>
         </div>
       </div>
     </div>
