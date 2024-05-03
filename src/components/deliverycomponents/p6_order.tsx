@@ -25,7 +25,7 @@ export default function order() {
         },
       ];
   return (
-    <div className="h-[125vh] w-full bg-[#28a4a4] px-[10vw] py-[15vh]">
+    <div className="h-[125vh] w-full bg-gradient-to-r from-[#28a4a4] to-[#208585] px-[10vw] py-[15vh]">
       <div className="flex flex-col items-center gap-6">
         <span className="text-6xl font-bold text-white">
           How To Order In <span className="text-[#fb5d3a]">Vaid</span>

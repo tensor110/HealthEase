@@ -36,7 +36,7 @@ export default function department() {
     },
   ];
   return (
-    <div className="bg-[#28a4a4] w-full h-[195vh] mt-[5%] px-[10%] pt-[10%]">
+    <div className="bg-gradient-to-r from-[#28a4a4] to-[#208585] w-full h-auto mt-[5%] px-[10%] pt-[10%] pb-[3%]">
       <span className="text-white font-medium text-base">Practice Advice</span>
       <div className="text-white text-4xl font-bold mt-5 mb-5">
         Our Department
@@ -48,12 +48,12 @@ export default function department() {
         {departmentItems.map((item, index) => (
           <div
             key={index}
-            className="bg-white w-[25vw] h-[110vh] flex flex-col"
+            className="bg-white w-[25vw] h-auto pb-2 flex flex-col rounded-2xl"
           >
             <div>
               <Image
                 alt="1"
-                className="aspect-square absolute w-[25vw] h-[50vh] z-10"
+                className="aspect-square absolute w-[25vw] h-[50vh] z-10 rounded-t-2xl"
                 height="100"
                 src= {item.src}
                 width="350"

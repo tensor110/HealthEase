@@ -11,7 +11,7 @@ export default function icons() {
         {src: "/assets/vaid-page-3/p2-Icons/brain.svg", name: "Brain"},
     ]
   return (
-    <div className='bg-[#e5f9f7] h-[110vh] flex justify-center items-center'>
+    <div className='bg-gradient-to-r from-[#28a4a4] to-[#218686] h-[110vh] flex justify-center items-center'>
       <div className='w-[65vw] flex flex-wrap justify-between gap-[4vw]'>
         {iconCards.map((item, index)=>(
             <div key ={index} className='bg-white w-[29%] flex flex-col justify-center px-[3.5vw] py-[2vw] gap-[3vh] rounded-3xl'>

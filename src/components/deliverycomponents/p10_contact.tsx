@@ -110,7 +110,7 @@ export default function contact() {
               <input
                 type="submit"
                 value="Submit"
-                className="bg-[#28a4a4] w-full py-[3vh] rounded-2xl text-white font-semiboldd text-xl cursor-pointer"
+                className="bg-gradient-to-r from-[#28a4a4] to-[#208585] w-full py-[3vh] rounded-2xl text-white font-semiboldd text-xl cursor-pointer"
               />
             </div>
           </div>

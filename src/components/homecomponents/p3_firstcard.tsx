@@ -24,12 +24,13 @@ export default function firstcard() {
     },
   ];
   return (
-    <div className="flex justify-between mt-[5%] px-[10%]">
+    <div className="flex items-end">
+    <div className="flex justify-between mt-[9%] px-[6%]">
       {cardContent.map((item, index) => (
         <Link
           href={item.href}
           key={index}
-          className="bg-white w-[31%] gap-10 p-12 shadow-md z-10 hover:scale-[1.01]"
+          className="bg-white w-[31%] gap-10 p-12 shadow-md z-10 hover:scale-[1.01] rounded-2xl"
         >
           <div className="w-full">
             <div className="mb-10">
@@ -61,6 +62,14 @@ export default function firstcard() {
           </div>
         </Link>
       ))}
+    </div>
+      <Image
+                alt="1"
+                className="aspect-square relative bottom-10 right-10"
+                height="100"
+                src="/assets/Vaid-page-1/p1-Hero/Group 516.svg"
+                width="300"
+              />
     </div>
   );
 }

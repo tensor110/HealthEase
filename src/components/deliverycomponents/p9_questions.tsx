@@ -23,7 +23,7 @@ export default function questions() {
     },
   ];
   return (
-    <div className="bg-[#28a4a4] w-full h-screen my-[6vh] py-[15vh] px-[10vh] flex justify-between">
+    <div className="bg-gradient-to-r from-[#28a4a4] to-[#208585] w-full h-screen my-[6vh] py-[15vh] px-[10vh] flex justify-between">
       <div>
       <Image
               alt="1"

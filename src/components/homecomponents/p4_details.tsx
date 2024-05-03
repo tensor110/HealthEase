@@ -20,7 +20,7 @@ export default function details() {
     },
   ];
   return (
-    <div className="bg-[#28a4a4] flex justify-evenly align-middle w-full mt-24 py-[15vh]">
+    <div className="bg-gradient-to-r from-[#28a4a4] to-[#208585] flex justify-evenly align-middle w-full mt-24 py-[15vh]">
       {detailContent.map((item, index) => (
         <div key={index} className="flex flex-col justify-center align-middle">
           <span className="text-white text-5xl font-bold flex justify-center">{item.number}</span>

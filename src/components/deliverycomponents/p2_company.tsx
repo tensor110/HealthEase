@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function company() {
   return (
-    <div className="bg-[#28a4a4] text-white flex items-center align-middle w-full h-[60vh]">
+    <div className="bg-gradient-to-r from-[#28a4a4] to-[#208585] text-white flex items-center align-middle w-full h-[60vh]">
         <div className="">
         <Image
               alt="1"

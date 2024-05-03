@@ -1,0 +1,6 @@
+<svg width="70" height="38" viewBox="0 0 70 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 5C0 2.23858 2.23858 0 5 0H65C67.7614 0 70 2.23858 70 5V33C70 35.7614 67.7614 38 65 38H5C2.23858 38 0 35.7614 0 33V5Z" fill="#FB5D3A"/>
+<line x1="25" y1="22.5" x2="45" y2="22.5" stroke="white"/>
+<line x1="25" y1="18.5" x2="45" y2="18.5" stroke="white"/>
+<line x1="25" y1="14.5" x2="45" y2="14.5" stroke="white"/>
+</svg>

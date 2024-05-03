@@ -33,7 +33,7 @@ export default function footer() {
     },
   ];
   return (
-    <div className="bg-[#28a4a4] py-[8vh] px-[10%] text-white">
+    <div className="bg-gradient-to-r from-[#28a4a4] to-[#208585] py-[8vh] px-[10%] text-white">
       <div className="flex justify-between">
         {footerItems.map((item, index) => (
           <div key={index} className="flex flex-col">
@@ -47,33 +47,39 @@ export default function footer() {
         <div className="flex flex-col">
           <span className="font-bold my-4">Get In Touch</span>
           <div className="font-semibold text-sm my-2 flex">
-            <div className="mr-5"><Image
-              alt="1"
-              className="aspect-square"
-              height="100"
-              src= "/assets/Vaid-page-1/p6-footer/phone.svg"
-              width="25"
-            /></div>
+            <div className="mr-5">
+              <Image
+                alt="1"
+                className="aspect-square"
+                height="100"
+                src="/assets/Vaid-page-1/p6-footer/phone.svg"
+                width="25"
+              />
+            </div>
             <span>6367764265</span>
           </div>
           <div className="font-semibold text-sm my-2 flex">
-            <div className="mr-5"><Image
-              alt="1"
-              className="aspect-square"
-              height="100"
-              src= "/assets/Vaid-page-1/p6-footer/location.svg"
-              width="25"
-            /></div>
+            <div className="mr-5">
+              <Image
+                alt="1"
+                className="aspect-square"
+                height="100"
+                src="/assets/Vaid-page-1/p6-footer/location.svg"
+                width="25"
+              />
+            </div>
             <span className="w-2/3">4517 Jodhpur . Rajasthan, 342015 </span>
           </div>
           <div className="font-semibold text-sm my-2 flex">
-            <div className="mr-5"><Image
-              alt="1"
-              className="aspect-square"
-              height="100"
-              src= "/assets/Vaid-page-1/p6-footer/mail.svg"
-              width="25"
-            /></div>
+            <div className="mr-5">
+              <Image
+                alt="1"
+                className="aspect-square"
+                height="100"
+                src="/assets/Vaid-page-1/p6-footer/mail.svg"
+                width="25"
+              />
+            </div>
             <span>ravindra.chaheliya@vaid.com</span>
           </div>
         </div>
@@ -83,28 +89,35 @@ export default function footer() {
           <span className="font-bold text-sm">Credits</span>
         </div>
         <div className="w-[12%] flex justify-between">
-        <Image
-              alt="1"
-              className="aspect-square"
-              height="100"
-              src= "/assets/Vaid-page-1/p6-footer/facebook.svg"
-              width="25"
-            />
           <Image
-              alt="1"
-              className="aspect-square"
-              height="100"
-              src= "/assets/Vaid-page-1/p6-footer/instagram.svg"
-              width="25"
-            />
+            alt="1"
+            className="aspect-square"
+            height="100"
+            src="/assets/Vaid-page-1/p6-footer/facebook.svg"
+            width="25"
+          />
           <Image
-              alt="1"
-              className="aspect-square"
-              height="100"
-              src= "/assets/Vaid-page-1/p6-footer/twitter.svg"
-              width="25"
-            />
+            alt="1"
+            className="aspect-square"
+            height="100"
+            src="/assets/Vaid-page-1/p6-footer/instagram.svg"
+            width="25"
+          />
+          <Image
+            alt="1"
+            className="aspect-square"
+            height="100"
+            src="/assets/Vaid-page-1/p6-footer/twitter.svg"
+            width="25"
+          />
         </div>
+        {/* <Image
+          alt="1"
+          className="rounded-lg cursor-pointer transition-transform duration-300 ease-in-out hover:animate-bounce"
+          height="100"
+          src="/assets/Vaid-page-1/p6-footer/aichatbot.png"
+          width="40"
+        /> */}
       </div>
     </div>
   );
