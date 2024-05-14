@@ -28,7 +28,7 @@ export default function department() {
       feature: "Best Dental Surgeons",
       star: '4.9',
       title: "Emergency Case",
-      text: "Highlight the availability of urgent care services for patients who need immediate attention. These services are designed for quick assessments and treatment of non- life-threatening conditions.",
+      text: "Swift urgent care for non-life-threatening conditions, ensuring immediate attention.",
       src:"/assets/Vaid-page-1/p3-our-department/department3.png",
       sales: "15",
       original_price: "1648",
@@ -111,7 +111,7 @@ export default function department() {
               <span className="text-black font-bold text-lg mb-2">
                 {item.title}
               </span>
-              <p className="text-black font-light text-base w-4/5 mb-1">
+              <p className="text-black font-light text-base w-4/5 mb-1 h-24">
                 {item.text}
               </p>
               <div className="flex gap-2">

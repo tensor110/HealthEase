@@ -56,24 +56,23 @@ export default function customers() {
             <span className="flex justify-center">
               <Image
                 alt="1"
-                className="aspect-square w-20 h-14 rounded-full"
+                className="aspect-auto"
                 height="100"
                 src={item.star}
                 width="100"
               />
             </span>
             <p className="flex text-center w-[60%] font-light">{item.text}</p>
-            <div className="flex justify-center">
-              <div className="mt-[5vh] flex justify-center items-center">
+            <div className="flex justify-center gap-4">
+              {/* <div className="mt-[5vh] flex justify-center items-center"> */}
                 <Image
                   alt="1"
                   className="aspect-square rounded-full"
-                  height="100"
+                  height="60"
                   src={item.photo}
-                  width="60"
+                  width="40"
                 />
-              </div>
-              <div className="flex flex-col justify-center ml-[10%] mt-[18%]">
+              <div className="flex flex-col justify-center">
                 <span className="text-[#ff685b] font-bold text-sm">
                   {item.name}
                 </span>

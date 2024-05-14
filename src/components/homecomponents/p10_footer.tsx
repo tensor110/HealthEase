@@ -80,7 +80,7 @@ export default function footer() {
                 width="25"
               />
             </div>
-            <span>ravindra.chaheliya@vaid.com</span>
+            <span>maheswar.mahapatra@healthease.com</span>
           </div>
         </div>
       </div>
@@ -111,13 +111,6 @@ export default function footer() {
             width="25"
           />
         </div>
-        {/* <Image
-          alt="1"
-          className="rounded-lg cursor-pointer transition-transform duration-300 ease-in-out hover:animate-bounce"
-          height="100"
-          src="/assets/Vaid-page-1/p6-footer/aichatbot.png"
-          width="40"
-        /> */}
       </div>
     </div>
   );

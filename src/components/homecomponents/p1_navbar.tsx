@@ -21,14 +21,11 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-1">
           <Image
             alt="1"
-            className="aspect-square rounded-full"
-            height="100"
-            src="/assets/vaid-page-2/0-logo.svg"
-            width="50"
+            className="aspect-square"
+            height="10"
+            src="/white-logo.png"
+            width="250"
           />
-          <div className="w-1/5 text-2xl font-bold">
-            Va<span className="text-[#115faa]">id</span>
-          </div>
         </div>
         <div className="flex justify-between w-2/5 text-[#737373] font-semibold">
           {navItems.map((item, index) => (
