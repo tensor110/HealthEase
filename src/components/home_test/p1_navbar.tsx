@@ -14,14 +14,11 @@ export default function navbar() {
       <div className="flex items-center gap-1">
           <Image
             alt="1"
-            className="aspect-square rounded-full"
+            className="aspect-auto"
             height="100"
-            src="/assets/vaid-page-2/0-logo.svg"
-            width="50"
+            src="/white-logo-final.png"
+            width="180"
           />
-          <div className="w-1/5 text-2xl font-bold">
-            Va<span className="text-[#115faa]">id</span>
-          </div>
         </div>
         <div className="flex">
           <Image

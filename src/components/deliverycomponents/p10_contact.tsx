@@ -26,17 +26,35 @@ export default function contact() {
               Sed facilisis eleifend quam, non efficitur nisi mattis quis
             </span>
             <div className="flex gap-4">
-              <span>img</span>
-              <span className="font-medium">ravindra.chaheliya@vaid.com</span>
+            <Image
+                  alt="1"
+                  height="200"
+                  className="aspect-square rounded-2xl"
+                  src="/assets/vaid-page-2/p9-contact-form/email.svg"
+                  width="18"
+                />
+              <span className="font-medium">maheswar.mahapatra@healthease.com</span>
             </div>
             <div className="flex gap-4">
-              <span>img</span>
+            <Image
+                  alt="1"
+                  height="200"
+                  className="aspect-square rounded-2xl"
+                  src="/assets/vaid-page-2/p9-contact-form/address.svg"
+                  width="18"
+                />
               <span className="font-medium">
                 4517, Jodhpur Rajasthan, 342015
               </span>
             </div>
             <div className="flex gap-4">
-              <span>img</span>
+            <Image
+                  alt="1"
+                  height="200"
+                  className="aspect-square rounded-2xl"
+                  src="/assets/vaid-page-2/p9-contact-form/call.svg"
+                  width="18"
+                />
               <span className="font-medium">+91 6367764265</span>
             </div>
             <div className="flex gap-[3vw]">

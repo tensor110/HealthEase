@@ -44,7 +44,7 @@ export default function p8_says() {
         {statsCards.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col bg-white shadow-2xl w-[26vw] h-[60vh] px-[3vw] py-[4vh] gap-4 items-center justify-center rounded-3xl"
+            className="flex flex-col bg-white shadow-2xl w-[26vw] min-h-[60vh] px-[3vw] py-[6vh] gap-4 items-center justify-center rounded-3xl"
           >
             <div className="flex flex-col gap-[3vh]">
             <div className="flex justify-start items-center gap-[2vw]">

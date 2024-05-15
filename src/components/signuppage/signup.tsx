@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function signup() {
   return (
     <div className="flex justify-center items-center h-screen bg-[#f0f0f0]">
-      <div className="bg-white shadow-2xl h-[85vh] w-[30%] rounded-3xl flex flex-col justify-center p-6 z-20">
+      <div className="bg-white shadow-2xl h-fit w-[30%] rounded-3xl flex flex-col justify-center p-6 z-20">
         <div className="flex flex-col justify-between px-[3%]">
           <div className="flex w-full justify-between">
             <span className="font-semibold flex items-center">Welcome</span>

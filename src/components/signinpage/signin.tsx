@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function signin() {
   return (
     <div className="flex justify-center items-center h-screen bg-[#f0f0f0]">
-      <div className="bg-white shadow-2xl h-[85vh] w-[30%] rounded-3xl flex flex-col justify-center p-6 z-20">
+      <div className="bg-white shadow-2xl h-fit w-[30%] rounded-3xl flex flex-col justify-center p-6 z-20">
         <div className="flex justify-between px-[3%]">
           <div className="w-full gap-2">
             <span className="">Welcome to Vaid</span>
@@ -50,7 +50,7 @@ export default function signin() {
             <span className="">or</span>
           </div>
           <div className="flex justify-between gap-3">
-            <button className="flex bg-[#000000] gap-4 px-10 py-3 rounded-lg">
+            <button className="flex justify-between items-center bg-[#000000] gap-4 px-5 py-3 rounded-lg">
               <Image
                 alt="1"
                 className="aspect-square rounded-full"

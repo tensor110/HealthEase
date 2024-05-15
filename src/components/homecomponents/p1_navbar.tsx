@@ -21,10 +21,10 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-1">
           <Image
             alt="1"
-            className="aspect-square"
+            className="aspect-auto"
             height="10"
-            src="/white-logo.png"
-            width="250"
+            src="/white-logo-final.png"
+            width="180"
           />
         </div>
         <div className="flex justify-between w-2/5 text-[#737373] font-semibold">
